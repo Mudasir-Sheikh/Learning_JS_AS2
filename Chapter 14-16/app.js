@@ -35,6 +35,9 @@ document.write(" Percentage: ",studentsMarks[2]/500*100,"%<br><br>")
 
 
 //Question 09
+var colors = ["yellow", "orange","red","blue","green"]
+document.write(colors)
+
 
 
 //Question 10
@@ -42,8 +45,67 @@ var score_arr = [780,315,440,512,490,695,552,780] //Unsorted Array
 var score_arr_sorted = score_arr.sort()
 console.log(score_arr_sorted)
 
-
+//Question 11
 var city_Names = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"]
 var seleted_cities = city_Names.slice(2,4)
 console.log(city_Names)
 console.log(seleted_cities)
+
+
+//Question 12
+var sentence = ["This","is","my","cat"]
+var joinsentence = sentence.join(" ");  //The join method takes one parameter in string which is used for
+// joining/concatenating the all values of Array, by defeault is comma "," , In this case space is given
+console.log(sentence)
+console.log(joinsentence)
+
+
+//Question 13
+// First In First Out Rule Using unshift for first-in and pop for first out
+console.log("First-In-First-Out")
+var storevalues = []
+storevalues.unshift("Value 1")
+console.log(storevalues)
+storevalues.unshift("Value 2")
+console.log(storevalues)
+storevalues.unshift("Value 3")
+console.log(storevalues)
+storevalues.unshift("Value 4")
+console.log(storevalues)
+
+
+storevalues.pop()
+console.log(storevalues)
+storevalues.pop()
+console.log(storevalues)
+storevalues.pop()
+console.log(storevalues)
+storevalues.pop()
+console.log(storevalues)
+
+
+//Question 14 
+//Last-In-First-Out
+console.log(" ")
+console.log("Last-In-First-Out")
+var storevalue = []
+storevalue.push("Object 1")
+console.log(storevalue)
+storevalue.push("Object 2")
+console.log(storevalue)
+storevalue.push("Object 3")
+console.log(storevalue)
+storevalue.push("Object 4")
+console.log(storevalue)
+
+
+
+
+storevalue.pop()
+console.log(storevalue)
+storevalue.pop()
+console.log(storevalue)
+storevalue.pop()
+console.log(storevalue)
+storevalue.pop()
+
